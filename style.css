@@ -1,0 +1,43 @@
+body{
+    background-color: #414141;
+    color:#fff;
+}
+#clock{
+    top: 30%;
+    left:10%;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    justify-content:center;
+    position: absolute;
+}
+#clock h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color:black;
+    background: radial-gradient(ellipse at center,  #2ed2ff  0%, #414141 75%);
+}
+.clock-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+}
+.clock-items{
+    width: 30%;
+    background-color: #fff;
+    color: black;
+    border-radius: 30px;
+    margin-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+}
+#date{
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+    justify-content:center;
+
+}
